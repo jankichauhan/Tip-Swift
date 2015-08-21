@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D10CCA57-4541-4D52-919B-2188FC01DAC6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tips</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4504D266FFBA83C26D72D82AB00F57FD9AF5D3D5</key>
+		<string>https://github.com/jankichauhan/TipCalculator-Swift-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tips.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4504D266FFBA83C26D72D82AB00F57FD9AF5D3D5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jankichauhan/TipCalculator-Swift-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4504D266FFBA83C26D72D82AB00F57FD9AF5D3D5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4504D266FFBA83C26D72D82AB00F57FD9AF5D3D5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tips</string>
+		</dict>
+	</array>
+</dict>
+</plist>
