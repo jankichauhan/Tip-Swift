@@ -10,14 +10,14 @@
 	<string>tips</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4504D266FFBA83C26D72D82AB00F57FD9AF5D3D5</key>
+		<key>C52CBFFFE4197D452E159119BD1792ECC19AF4B9</key>
 		<string>https://github.com/jankichauhan/TipCalculator-Swift-.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>tips.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4504D266FFBA83C26D72D82AB00F57FD9AF5D3D5</key>
+		<key>C52CBFFFE4197D452E159119BD1792ECC19AF4B9</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4504D266FFBA83C26D72D82AB00F57FD9AF5D3D5</string>
+	<string>C52CBFFFE4197D452E159119BD1792ECC19AF4B9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4504D266FFBA83C26D72D82AB00F57FD9AF5D3D5</string>
+			<string>C52CBFFFE4197D452E159119BD1792ECC19AF4B9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>tips</string>
 		</dict>

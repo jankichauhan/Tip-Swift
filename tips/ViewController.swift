@@ -64,24 +64,28 @@ class ViewController: UIViewController {
     func forAppActive(){
         println("for app active")
         var defaultsForAppRestart = NSUserDefaults.standardUserDefaults()
-        var lastBilldate = defaultsForAppRestart.objectForKey("Last bill date") as NSDate
-        var lastBillAmount = defaultsForAppRestart.objectForKey("Last bill amount") as String
         
-        var now = NSDate()
-        
-        let interval = now.timeIntervalSinceDate(lastBilldate)
-        
-        println(" interval \(interval)")
-
-        if(interval < 60){
+        if var lastBilldate = defaultsForAppRestart.objectForKey("Last bill date") as? NSDate {
+            
+            var lastBillAmount = defaultsForAppRestart.objectForKey("Last bill amount") as String
+            
+            var now = NSDate()
+            
+            let interval = now.timeIntervalSinceDate(lastBilldate)
+            
             println(" interval \(interval)")
-            billAmountField.text =  lastBillAmount
-            onEditingChange(lastBillAmount)
+            
+            if(interval < 60){
+                println(" interval \(interval)")
+                billAmountField.text =  lastBillAmount
+                onEditingChange(lastBillAmount)
+                
+            }
+            else{
+                billAmountField.text = ""
+                // self.billAmountField.becomeFirstResponder()
+            }
 
-        }
-        else{
-            billAmountField.text = ""
-           // self.billAmountField.becomeFirstResponder()
         }
         
     }
