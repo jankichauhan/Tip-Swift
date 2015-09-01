@@ -47,8 +47,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Tip Calculator"
+        
+        //setting the locale of the device
         formatter.numberStyle = NSNumberFormatterStyle.CurrencyStyle
         formatter.locale = NSLocale.currentLocale()
+        
         NSNotificationCenter.defaultCenter().addObserver(self, selector:"forAppActive", name:
             UIApplicationDidBecomeActiveNotification, object: nil)
         
