@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81739C21B963B2F0017F9F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81739C11B963B2F0017F9F6 /* LaunchScreen.xib */; };
 		B89AF3E71AD1F78800CDCD91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89AF3E61AD1F78800CDCD91 /* AppDelegate.swift */; };
 		B89AF3E91AD1F78800CDCD91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89AF3E81AD1F78800CDCD91 /* ViewController.swift */; };
 		B89AF3EC1AD1F78800CDCD91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89AF3EA1AD1F78800CDCD91 /* Main.storyboard */; };
 		B89AF3EE1AD1F78800CDCD91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89AF3ED1AD1F78800CDCD91 /* Images.xcassets */; };
-		B89AF3F11AD1F78800CDCD91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B89AF3EF1AD1F78800CDCD91 /* LaunchScreen.xib */; };
 		B89AF3FD1AD1F78800CDCD91 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89AF3FC1AD1F78800CDCD91 /* tipsTests.swift */; };
 		B89AF4071AD4582400CDCD91 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89AF4061AD4582400CDCD91 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B81739C11B963B2F0017F9F6 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B89AF3E11AD1F78800CDCD91 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89AF3E51AD1F78800CDCD91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B89AF3E61AD1F78800CDCD91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B89AF3E81AD1F78800CDCD91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B89AF3EB1AD1F78800CDCD91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B89AF3ED1AD1F78800CDCD91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B89AF3F01AD1F78800CDCD91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B89AF3F61AD1F78800CDCD91 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89AF3FB1AD1F78800CDCD91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B89AF3FC1AD1F78800CDCD91 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
@@ -79,12 +79,12 @@
 		B89AF3E31AD1F78800CDCD91 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				B81739C11B963B2F0017F9F6 /* LaunchScreen.xib */,
 				B89AF4081AD4582A00CDCD91 /* ViewController */,
 				B89AF3E61AD1F78800CDCD91 /* AppDelegate.swift */,
 				B89AF3E81AD1F78800CDCD91 /* ViewController.swift */,
 				B89AF3EA1AD1F78800CDCD91 /* Main.storyboard */,
 				B89AF3ED1AD1F78800CDCD91 /* Images.xcassets */,
-				B89AF3EF1AD1F78800CDCD91 /* LaunchScreen.xib */,
 				B89AF3E41AD1F78800CDCD91 /* Supporting Files */,
 			);
 			path = tips;
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B89AF3EC1AD1F78800CDCD91 /* Main.storyboard in Resources */,
-				B89AF3F11AD1F78800CDCD91 /* LaunchScreen.xib in Resources */,
+				B81739C21B963B2F0017F9F6 /* LaunchScreen.xib in Resources */,
 				B89AF3EE1AD1F78800CDCD91 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +254,6 @@
 				B89AF3EB1AD1F78800CDCD91 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B89AF3EF1AD1F78800CDCD91 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B89AF3F01AD1F78800CDCD91 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -421,6 +413,7 @@
 				B89AF4021AD1F78800CDCD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B89AF4031AD1F78800CDCD91 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +422,7 @@
 				B89AF4051AD1F78800CDCD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
